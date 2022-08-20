@@ -1,0 +1,252 @@
+/* 
+===============
+variable
+===============
+ */
+:root {
+    /*---- Font Family  ----*/
+    --primary-font-700: 'Quicksand 700';
+    --primary-font-500: 'Quicksand 500';
+    --primary-font-400: 'Quicksand 400';
+    --secondary-font-400: 'Myriad Pro 400';
+    /*------ Font Size  ------*/
+    --size-9xl: 60px;
+    --size-8xl: 50px;
+    --size-7xl: 36px;
+    --size-6xl: 30px;
+    --size-5xl: 28px;
+    --size-4xl: 24px;
+    --size-3xl: 22px;
+    --size-2xl: 18px;
+    --size-xl: 16px;
+    --size-lg: 15px;
+    --size-md: 14px;
+    --size-sm: 13px;
+    /*------ Text Color  ------*/
+    --primary-color: #2d343e;
+    --secondary-color: #ffffff;
+    --third-color: #666666;
+    --four-color: #6b6b6b;
+    --five-color: #ed164f;
+    --six-color: #6c6c6c;
+    --seven-color: #888888;
+    --eight-color: #555555;
+    --nine-color: #999999;
+    --ten-color: #000000;
+    /*---- Bg Color  ----*/
+    --primary-bg: #ffffff;
+    --secondary-color: #ed164f;
+    --third-bg: #2D343E;
+    --four-bg: #262C35;
+}
+
+/* 
+14px
+16px
+22px
+60px
+28px
+30px
+36px
+18px
+24px
+50px
+13px
+15px
+*/
+/* 
+===============
+Basic Setup
+===============
+ */
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+a,
+span,
+label {
+    display: inline-block;
+}
+
+button {
+    cursor: pointer;
+}
+
+input,
+textarea,
+input:focus textarea:focus button {
+    outline: 0;
+    border: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+img,
+button,
+a {
+    transition: all .3s ease-in-out;
+}
+
+/* 
+=================
+Font Family
+=================
+*/
+.primary-font-700 {
+    font-family: var(--primary-font-700);
+}
+
+.primary-font-500 {
+    font-family: var(--primary-font-500);
+}
+
+.primary-font-400 {
+    font-family: var(--primary-font-400);
+}
+
+.secondary-font-400 {
+    font-family: var(--secondary-font-400);
+}
+
+
+
+/* 
+=================
+Font Size
+=================
+*/
+.size-9xl {
+    font-size: var(--size-9xl);
+    line-height: 1.25;
+}
+
+.size-8xl {
+    font-size: var(--size-8xl);
+    line-height: 1.92;
+}
+
+.size-7xl {
+    font-size: var(--size-7xl);
+    line-height: 1.38;
+}
+
+.size-6xl {
+    font-size: var(--size-6xl);
+    line-height: 1.33;
+}
+
+.size-5xl {
+    font-size: var(--size-5xl);
+    line-height: 1.42;
+}
+
+.size-4xl {
+    font-size: var(--size-4xl);
+    line-height: 1.5;
+}
+
+.size-3xl {
+    font-size: var(--size-3xl);
+    line-height: 1.45;
+}
+
+.size-2xl {
+    font-size: var(--size-2xl);
+    line-height: 1.55;
+}
+
+.size-xl {
+    font-size: var(--size-xl);
+    line-height: 1.62;
+}
+
+.size-lg {
+    font-size: var(--size-lg);
+    line-height: 1.62;
+}
+
+.size-md {
+    font-size: var(--size-md);
+    line-height: 1.71;
+}
+
+.size-sm {
+    font-size: var(--size-sm);
+    line-height: 1.38;
+}
+
+/* 
+=================
+Text Color
+=================
+*/
+.primary-color {
+    color: var(--primary-color);
+}
+
+.secondary-color {
+    color: var(--secondary-color);
+}
+
+.third-color {
+    color: var(--third-color);
+}
+
+.four-color {
+    color: var(--four-color);
+}
+
+.five-color {
+    color: var(--five-color);
+}
+
+.six-color {
+    color: var(--six-color);
+}
+
+.seven-color {
+    color: var(--seven-color);
+}
+
+.eight-color {
+    color: var(--eight-color);
+}
+
+.nine-color {
+    color: var(--nine-color);
+}
+
+.ten-color {
+    color: var(--ten-color);
+}
+
+/* 
+=================
+Background Color
+=================
+*/
+.primary-bg {
+    background-color: var(--primary-bg);
+}
+
+.secondary-bg {
+    background-color: var(--secondary-bg);
+}
+
+.third-bg {
+    background-color: var(--third-bg);
+}
+
+.four-bg {
+    background-color: var(--four-bg);
+}
